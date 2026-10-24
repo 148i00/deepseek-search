@@ -1,0 +1,14 @@
+# 运行时数据（包含 API Key，不要提交）
+data/
+*.log
+
+# 单文件版构建产物（personal 版本含 API Key）
+dist/
+
+# 依赖
+node_modules/
+tools/e2e/node_modules/
+
+# 临时文件
+dom-dump.html
+.tmp/

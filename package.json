@@ -1,0 +1,20 @@
+{
+  "name": "deepseek-search",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "DeepSeek 搜索 — 用 DeepSeek Search API 打造的人类可用搜索引擎",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node server.mjs --open",
+    "build:standalone": "node scripts/build-standalone.mjs",
+    "build:standalone:personal": "node scripts/build-standalone.mjs --embed-key",
+    "test": "node --test",
+    "check:api": "node scripts/check-api.mjs",
+    "e2e": "node tools/e2e/smoke.mjs",
+    "test:standalone": "node scripts/build-standalone.mjs --quiet && node scripts/build-standalone.mjs --embed-key --quiet && node tools/e2e/standalone.mjs"
+  }
+}

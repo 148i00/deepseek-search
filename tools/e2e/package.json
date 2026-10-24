@@ -1,0 +1,10 @@
+{
+  "name": "deepseek-search-e2e",
+  "private": true,
+  "version": "1.0.0",
+  "description": "DeepSeek 搜索 · Playwright + 本机 Edge 端到端冒烟测试",
+  "type": "module",
+  "dependencies": {
+    "playwright-core": "^1.64.1"
+  }
+}
